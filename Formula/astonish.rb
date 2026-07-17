@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 class Astonish < Formula
-  desc "An autonomous AI agent that learns your workflows"
+  desc "AI-powered terminal assistant"
   homepage "https://github.com/SAP/astonish"
   version "3.1.2"
   license "MIT"
