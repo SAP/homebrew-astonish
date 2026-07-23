@@ -4,30 +4,30 @@
 class Astonish < Formula
   desc "AI-powered terminal assistant"
   homepage "https://github.com/SAP/astonish"
-  version "3.1.9"
+  version "3.1.10"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/SAP/astonish/releases/download/v3.1.9/astonish-darwin-amd64"
-      sha256 "5c8fe834ed09a7078bc788f8fba5cd0439be935242c4354e63cf2d2bbc876911"
+      url "https://github.com/SAP/astonish/releases/download/v3.1.10/astonish-darwin-amd64"
+      sha256 "9c65da967a786b103fbb7da04417c62cb5c836ce5dbe95c6d3ff914af21d7796"
     end
 
     on_arm do
-      url "https://github.com/SAP/astonish/releases/download/v3.1.9/astonish-darwin-arm64"
-      sha256 "b80f25824a1b7d33fa6d69580be5fc3520189a80ed8bd80520aef644156e249c"
+      url "https://github.com/SAP/astonish/releases/download/v3.1.10/astonish-darwin-arm64"
+      sha256 "56b66d7ac67206b224362476e5b1c7d89e0629d6cee43d8fd1d2fbbe85de8066"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/SAP/astonish/releases/download/v3.1.9/astonish-linux-amd64"
-      sha256 "5a770f8c3d8aff050c626e73c302320038a5baddd56e3abc0f3b8f18c6e80cbb"
+      url "https://github.com/SAP/astonish/releases/download/v3.1.10/astonish-linux-amd64"
+      sha256 "3c5911df892b54e998455cbf5d28b89d47109a47db683f2c9013e63a864b8732"
     end
 
     on_arm do
-      url "https://github.com/SAP/astonish/releases/download/v3.1.9/astonish-linux-arm64"
-      sha256 "c939ea048d299770bf993e9258bf06081c4ff35f2126c8495171c4a10a6241e7"
+      url "https://github.com/SAP/astonish/releases/download/v3.1.10/astonish-linux-arm64"
+      sha256 "ff27bce164a5d9e7af3072f9fa09f2f43481fbb6b3ef334657de65ed21ca920e"
     end
   end
 
